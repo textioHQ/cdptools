@@ -729,7 +729,7 @@ class CloudFirestoreDatabase(Database):
 
     def get_or_upload_event_entity(self, event_id: str, label: str, value: Any) -> Dict:
         return self._get_or_upload_row(
-            table="event_topic",
+            table="event_entity",
             pks=[("event_id", event_id), ("label", label), ("value", value)],
             values={
                 "event_id": event_id,
