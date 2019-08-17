@@ -43,6 +43,7 @@ interactive_requirements = [
 
 requirements = [
     "beautifulsoup4==4.8.0",
+    "dateparser==0.7.1",
     "ffmpeg-python==0.2.0",
     "fuzzywuzzy==0.17.0",
     "nltk==3.4.4",
@@ -50,7 +51,8 @@ requirements = [
     "python-Levenshtein==0.12.0",
     "requests==2.22.0",
     "schedule==0.6.0",
-    "tika==1.19"
+    "spacy==2.1.8",
+    "tika==1.19",
 ]
 
 local_requirements = [
